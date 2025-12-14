@@ -495,20 +495,6 @@ body.dark-mode {
     height: 32px;
 }
 
-/* ...dengan kode ini */
-.contact__socials .fa-behance {
-    font-size: 32px;     /* Atur ukuran ikon di sini */
-    line-height: 1;
-    position: relative;
-    top: -3px;           /* Sesuaikan ini untuk menaikkan/menurunkan ikon */
-    color: var(--color-text); /* Ganti warna jika perlu */
-}
-
-/* Aturan hover khusus untuk Behance */
-.contact__socials a:hover .fa-behance {
-    color: var(--color-accent);
-}
-
 /* -------------------- */
 /* --- FOOTER --- */
 /* -------------------- */
