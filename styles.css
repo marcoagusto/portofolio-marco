@@ -529,6 +529,7 @@ body.dark-mode {
     justify-content: center;
     align-items: center;
     z-index: 2000;
+    pointer-events: none;
 }
 
 .modal__container {
@@ -539,6 +540,7 @@ body.dark-mode {
     width: 95%;
     overflow-y: auto;
     animation: slide-in 0.3s ease-out;
+    pointer-events: auto;
 }
 
 @keyframes slide-in {

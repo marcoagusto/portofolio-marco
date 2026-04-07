@@ -183,4 +183,34 @@ const projects = [
       <p>The final logo design was successfully adopted across all company branding materials and received a <strong>90% approval rating</strong> from internal stakeholders, enhancing the company's professional image.</p>
     `
   },
+  {
+    id: 8,
+    title: 'Bazarsip – Premium E-Commerce Web Application',
+    description: 'Designed and developed an end-to-end luxury e-commerce platform featuring a responsive storefront and a high-efficiency admin dashboard.',
+    image: 'assets/images/bazarsip-desktop-mockup-customer.png', // TODO: Ganti gambar ini
+    tags: ['UI/UX Design', 'Design System', 'Front-End', 'Web App'],
+    details: `
+      <div class="modal__image-gallery">
+        <img src="assets/images/bazarsip-desktop-mockup-customer.png" alt="Bazarsip Customer Storefront Mockup">
+      </div>
+      
+      <h3>The Challenge</h3>
+      <p>Designing a modern, responsive storefront that balances bold streetwear aesthetics with refined presentation, while simultaneously engineering a complex, "Desktop-first" Admin Panel to streamline heavy operational workflows.</p>
+      
+      <h3>My Approach & Role</h3>
+      <p>I took ownership of both the UI/UX design process and the front-end implementation:</p>
+      <ul>
+        <li><strong>Design System:</strong> Established a comprehensive, WCAG-compliant Design System, standardizing typography, dark/light mode color palettes, and UI components across the entire platform.</li>
+        <li><strong>Admin Architecture:</strong> Engineered a complex Admin Panel to streamline operations, featuring nested category mapping, inventory restock alerts, and integrated order and shipping management tables.</li>
+        <li><strong>Customer Experience:</strong> Implemented a seamless 3-step checkout flow utilizing dynamic state management and real-time form validation to reduce drop-offs.</li>
+      </ul>
+      
+      <h3>The Outcome</h3>
+      <p>The project resulted in a frictionless user journey from product discovery to checkout. The overall experience was significantly optimized through clear visual hierarchies, actionable empty states, and intuitive micro-interactions, proving the effectiveness of bridging solid UX principles with clean front-end execution.</p>
+      
+      <div class="modal__links">
+          <a href="https://www.figma.com/design/MFHnks0RiEcyKCTVfzQG8L/Bazarsip?node-id=734-1514&t=kSyxESAMvfEvZVot-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+      </div>
+    `
+  }
 ];
