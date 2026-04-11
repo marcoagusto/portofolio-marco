@@ -29,7 +29,7 @@ const projects = [
           <a href="https://www.figma.com/design/MFHnks0RiEcyKCTVfzQG8L/Bazarsip?node-id=734-1514&t=yeYGZ6BQbW44JCYb-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
       </div>
     `
-  }
+  },
   {
     id: 2,
     title: 'Self-Regulated Learning Dashboard',
