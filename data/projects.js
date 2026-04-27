@@ -7,6 +7,37 @@
 // - The `details` section is what appears in the modal. Use HTML for formatting.
 
 const projects = [
+   {
+    id: 0,
+    title: 'Stockwise - Warehouse & Stock Opname System',
+    description: 'Designed an enterprise-level warehouse system to handle large-scale inventory (5,000+ items) with scan-based input and real-time validation.',
+    image: 'assets/images/Stockwise Device Mockup.png', // TODO: Ganti dengan gambar kamu
+    tags: ['UI/UX Design', 'Mobile App', 'Web App', 'Device Mockup'],
+    details: `
+    <div class="modal__image-gallery">
+      <img src="assets/images/Stockwise Device Mockup.png" alt="Device Mockup">
+    </div>
+
+    <h3>The Challenge</h3>
+    <p>Warehouse operations often involve thousands of items, making manual stock opname slow, error-prone, and difficult to track. The challenge was to design a system that could handle large datasets efficiently while minimizing human error and improving operational speed.</p>
+    
+    <h3>My Approach & Role</h3>
+    <p>I designed an end-to-end UI/UX solution for both mobile and desktop platforms, focusing on efficiency and usability:</p>
+    <ul>
+      <li><strong>Mobile-First Experience:</strong> Designed a scan-based interface to enable fast stock input using barcode scanning, supported by manual input as a fallback.</li>
+      <li><strong>Large Data Handling:</strong> Implemented lazy loading and infinite scroll to ensure smooth performance when managing 5,000+ inventory items.</li>
+      <li><strong>Real-Time Validation:</strong> Designed clear visual indicators for stock differences (overstock, missing, not counted) to reduce input errors.</li>
+      <li><strong>Dashboard & Approval Flow:</strong> Created a desktop dashboard for supervisors and admins to monitor progress, analyze mismatches, and manage approval workflows.</li>
+    </ul>
+    
+    <h3>The Outcome</h3>
+    <p>The system significantly improves efficiency in warehouse operations by reducing manual input, speeding up stock counting, and providing clear insights for decision-making. The scan-first interaction and structured workflow help minimize errors and streamline the entire stock opname process.</p>
+
+    <div class="modal__links">
+        <a href="https://www.figma.com/design/0ACeSnt6WDCBfrfjugrQcW/Stockwise?node-id=0-1&t=21M0U0E8wV67Me2f-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+    </div>
+  `
+  },
   {
     id: 1,
     title: 'Bazarsip – Premium E-Commerce Web Application',
