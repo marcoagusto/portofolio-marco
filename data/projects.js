@@ -198,8 +198,6 @@ const projects = [
         <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
         <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
       </ul>
-      // <h3>The Outcome</h3>
-      // <p>The new website pages contributed to a <strong>20% increase in lead generation</strong> and a significant <strong>10% reduction in bounce rate</strong>, proving the effectiveness of the user-centric design approach.</p>
      <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
       `
   },
