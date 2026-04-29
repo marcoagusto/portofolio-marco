@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 1,
-    title: 'Bazarsip – Premium E-Commerce Web Application',
+    title: 'Bazarsip - Premium E-Commerce Web Application',
     description: 'Designed and developed an end-to-end luxury e-commerce platform featuring a responsive storefront and a high-efficiency admin dashboard.',
     image: 'assets/images/bazarsip-desktop-mockup-customer.png', // TODO: Ganti gambar ini
     tags: ['UI/UX Design', 'Design System', 'Front-End', 'Web App'],
@@ -72,10 +72,10 @@ const projects = [
     id: 2,
     title: 'Self-Regulated Learning Dashboard',
     description: 'A UI/UX project aimed at enhancing student motivation for distance learners.',
-    image: 'assets/images/project-srl-dashboard.png', // TODO: Replace this image
+    image: 'assets/images/Self-Regulated Learning Dashboard Device Mockup.png', // TODO: Replace this image
     tags: ['UI/UX Design', 'Figma', 'User Research', 'Prototyping'],
     details: `
-      <img src="assets/images/project-srl-dashboard.png" alt="SRL Dashboard High-Fidelity Mockup">
+      <img src="assets/images/Self-Regulated Learning Dashboard Device Mockup.png" alt="SRL Dashboard High-Fidelity Mockup">
       <h3>The Challenge</h3>
       <p>Distance learners often struggle with motivation and self-regulation. This project aimed to design a learning dashboard that incorporates Self-Regulated Learning (SRL) principles to support and motivate students.</p>
       
@@ -186,10 +186,10 @@ const projects = [
     id: 6,
     title: 'Bladerunner Web Marketing Project',
     description: 'Created key pages for a marketing website to increase lead generation.',
-    image: 'assets/images/project-bladerunner.png', // TODO: Ganti gambar ini
+    image: 'assets/images/Bladerunner Device Mockup.png', // TODO: Ganti gambar ini
     tags: ['Web Design', 'UI/UX', 'Lead Generation'],
     details: `
-      <img src="assets/images/project-bladerunner.png" alt="Bladerunner Website Mockup">
+      <img src="assets/images/Bladerunner Device Mockup.png" alt="Bladerunner Website Mockup">
       <h3>The Goal</h3>
       <p>To develop a modern marketing website for Bladerunner, focusing on optimizing the user journey to increase lead generation and reduce bounce rates.</p>
       <h3>My Role & Contribution</h3>
@@ -198,8 +198,6 @@ const projects = [
         <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
         <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
       </ul>
-      <h3>The Outcome</h3>
-      <p>The new website pages contributed to a <strong>20% increase in lead generation</strong> and a significant <strong>10% reduction in bounce rate</strong>, proving the effectiveness of the user-centric design approach.</p>
      <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
       `
   },
