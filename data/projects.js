@@ -98,6 +98,25 @@ const projects = [
   },
   {
     id: 3,
+    title: 'Bladerunner Web Marketing Project',
+    description: 'Created key pages for a marketing website to increase lead generation.',
+    image: 'assets/images/Bladerunner Device Mockup.png', // TODO: Ganti gambar ini
+    tags: ['Web Design', 'UI/UX', 'Lead Generation'],
+    details: `
+      <img src="assets/images/Bladerunner Device Mockup.png" alt="Bladerunner Website Mockup">
+      <h3>The Goal</h3>
+      <p>To develop a modern marketing website for Bladerunner, focusing on optimizing the user journey to increase lead generation and reduce bounce rates.</p>
+      <h3>My Role & Contribution</h3>
+      <ul>
+        <li>Designed and developed key pages including the landing page, services overview, portfolio, and a functional contact form.</li>
+        <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
+        <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
+      </ul>
+     <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
+      `
+  },
+  {
+    id: 4,
     title: 'PT. Jago Talenta Indonesia Internship Project',
     description: 'Led the redesign of the main company website to improve user engagement.',
     image: 'assets/images/project-jago-talenta-1.png', // Main card image
@@ -133,29 +152,6 @@ const projects = [
       `
   },
   {
-    id: 4,
-    title: 'Igracias University Portal Redesign',
-    description: 'A redesign of a university portal to improve navigation and information architecture.',
-    image: 'assets/images/project-igraciass.png', // TODO: Replace this image
-    tags: ['UI Design', 'Figma', 'Information Architecture'],
-    details: `
-      <img src="assets/images/project-igraciass.png" alt="Igracias Portal Redesign">
-      <h3>The Challenge</h3>
-      <p>The Igracias university portal was cluttered and difficult for students to navigate, leading to frequent support requests and frustration. The goal was to simplify the information architecture and create a more intuitive user interface.</p>
-      
-      <h3>My Approach & Role</h3>
-      <p>I focused on restructuring the user flow and visual hierarchy:</p>
-      <ul>
-        <li>Analyzed user feedback to identify the most common navigation problems.</li>
-        <li>Created a new sitemap and user flow diagrams to streamline access to essential information like grades, schedules, and announcements.</li>
-        <li>Designed a clean, modern UI in Figma with a consistent visual language.</li>
-      </ul>
-      
-      <h3>The Outcome</h3>
-      <p>The redesign led to a <strong>40% decrease in user-reported issues</strong> and a <strong>35% increase in average session duration</strong>, indicating that students found the new portal easier and more engaging to use.</p>
-    `
-  },
-  {
     id: 5,
     title: 'Multiku Application',
     description: 'UI/UX design and copywriting for a mobile application, leading to improved task completion.',
@@ -184,22 +180,26 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Bladerunner Web Marketing Project',
-    description: 'Created key pages for a marketing website to increase lead generation.',
-    image: 'assets/images/Bladerunner Device Mockup.png', // TODO: Ganti gambar ini
-    tags: ['Web Design', 'UI/UX', 'Lead Generation'],
+    title: 'Igracias University Portal Redesign',
+    description: 'A redesign of a university portal to improve navigation and information architecture.',
+    image: 'assets/images/project-igraciass.png', // TODO: Replace this image
+    tags: ['UI Design', 'Figma', 'Information Architecture'],
     details: `
-      <img src="assets/images/Bladerunner Device Mockup.png" alt="Bladerunner Website Mockup">
-      <h3>The Goal</h3>
-      <p>To develop a modern marketing website for Bladerunner, focusing on optimizing the user journey to increase lead generation and reduce bounce rates.</p>
-      <h3>My Role & Contribution</h3>
+      <img src="assets/images/project-igraciass.png" alt="Igracias Portal Redesign">
+      <h3>The Challenge</h3>
+      <p>The Igracias university portal was cluttered and difficult for students to navigate, leading to frequent support requests and frustration. The goal was to simplify the information architecture and create a more intuitive user interface.</p>
+      
+      <h3>My Approach & Role</h3>
+      <p>I focused on restructuring the user flow and visual hierarchy:</p>
       <ul>
-        <li>Designed and developed key pages including the landing page, services overview, portfolio, and a functional contact form.</li>
-        <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
-        <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
+        <li>Analyzed user feedback to identify the most common navigation problems.</li>
+        <li>Created a new sitemap and user flow diagrams to streamline access to essential information like grades, schedules, and announcements.</li>
+        <li>Designed a clean, modern UI in Figma with a consistent visual language.</li>
       </ul>
-     <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
-      `
+      
+      <h3>The Outcome</h3>
+      <p>The redesign led to a <strong>40% decrease in user-reported issues</strong> and a <strong>35% increase in average session duration</strong>, indicating that students found the new portal easier and more engaging to use.</p>
+    `
   },
   {
     id: 7,
