@@ -34,7 +34,7 @@ const projects = [
     <p>The system significantly improves efficiency in warehouse operations by reducing manual input, speeding up stock counting, and providing clear insights for decision-making. The scan-first interaction and structured workflow help minimize errors and streamline the entire stock opname process.</p>
 
     <div class="modal__links">
-        <a href="https://www.figma.com/design/0ACeSnt6WDCBfrfjugrQcW/Stockwise?node-id=0-1&t=21M0U0E8wV67Me2f-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+        <a href="https://dribbble.com/shots/27331247-Stockwise-Warehouse-Stock-Opname-System" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
     </div>
   `
   },
@@ -64,7 +64,7 @@ const projects = [
       <p>The project resulted in a frictionless user journey from product discovery to checkout. The overall experience was significantly optimized through clear visual hierarchies, actionable empty states, and intuitive micro-interactions, proving the effectiveness of bridging solid UX principles with clean front-end execution.</p>
       
       <div class="modal__links">
-          <a href="https://www.figma.com/design/MFHnks0RiEcyKCTVfzQG8L/Bazarsip?node-id=734-1514&t=kSyxESAMvfEvZVot-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+          <a href="https://dribbble.com/shots/27330013-Bazarsip-E-Commerce-Web-Application" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
       </div>
     `
   },
@@ -112,7 +112,7 @@ const projects = [
         <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
         <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
       </ul>
-     <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
+     <a href="https://dribbble.com/shots/27331257-Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
       `
   },
   {
