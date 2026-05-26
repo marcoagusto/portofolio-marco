@@ -7,12 +7,49 @@
 // - The `details` section is what appears in the modal. Use HTML for formatting.
 
 const projects = [
-   {
+  {
     id: 0,
-    title: 'Stockwise - Warehouse & Stock Opname System',
-    description: 'Designed an enterprise-level warehouse system to handle large-scale inventory (5,000+ items) with scan-based input and real-time validation.',
-    image: 'assets/images/Stockwise Device Mockup.png', // TODO: Ganti dengan gambar kamu
-    tags: ['UI/UX Design', 'Mobile App', 'Web App', 'Device Mockup'],
+    title: "OVIA - Digital Banking Mobile App",
+    description:
+      "Designed a modern digital banking application focused on premium fintech experiences, intuitive financial interactions, and seamless mobile banking workflows.",
+    image: "assets/images/Ovia Digital Mobile Banking Device Mockup 1.png",
+    tags: ["UI/UX Design", "Mobile App", "Fintech", "Device Mockup"],
+    details: `
+    <div class="modal__image-gallery">
+      <img src="assets/images/Ovia Digital Mobile Banking Device Mockup 2.png" alt="OVIA Device Mockup 2">
+    </div>
+
+    <h3>The Challenge</h3>
+    <p>Digital banking applications often prioritize functionality but can feel cluttered and overwhelming, making financial management less intuitive for modern users. The challenge was to design a banking experience that balances premium aesthetics with usability, while simplifying daily financial interactions and maintaining a clean, trustworthy interface.</p>
+    
+    <h3>My Approach & Role</h3>
+    <p>I designed an end-to-end mobile banking experience focused on usability, financial clarity, and modern fintech interaction patterns:</p>
+    
+    <ul>
+      <li><strong>Financial Dashboard:</strong> Designed a clean Home dashboard prioritizing balance visibility, quick actions, and recent activity with strong visual hierarchy.</li>
+      
+      <li><strong>Card Management Experience:</strong> Created a dedicated Cards interface featuring card carousel interactions, quick controls, and security management including payment settings and biometric authentication.</li>
+      
+      <li><strong>QRIS & Payment Flow:</strong> Designed a scan-first QRIS interaction and simplified payment flows to support fast and seamless daily transactions.</li>
+      
+      <li><strong>Modern Fintech Design System:</strong> Applied soft gradients, blurred ambient backgrounds, reusable components, and mobile-first design principles to create a premium and scalable fintech UI.</li>
+    </ul>
+    
+    <h3>The Outcome</h3>
+    <p>OVIA delivers a modern digital banking concept that combines elegant visual design with intuitive financial interactions. The structured navigation, simplified banking workflows, and premium UI language create a seamless and trustworthy mobile banking experience.</p>
+
+    <div class="modal__links">
+      <a href="https://dribbble.com/shots/27410969-OVIA-Digital-Banking-Mobile-App" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+    </div>
+  `,
+  },
+  {
+    id: 1,
+    title: "Stockwise - Warehouse & Stock Opname System",
+    description:
+      "Designed an enterprise-level warehouse system to handle large-scale inventory (5,000+ items) with scan-based input and real-time validation.",
+    image: "assets/images/Stockwise Device Mockup.png", // TODO: Ganti dengan gambar kamu
+    tags: ["UI/UX Design", "Mobile App", "Web App", "Device Mockup"],
     details: `
     <div class="modal__image-gallery">
       <img src="assets/images/Stockwise Device Mockup.png" alt="Device Mockup">
@@ -34,16 +71,17 @@ const projects = [
     <p>The system significantly improves efficiency in warehouse operations by reducing manual input, speeding up stock counting, and providing clear insights for decision-making. The scan-first interaction and structured workflow help minimize errors and streamline the entire stock opname process.</p>
 
     <div class="modal__links">
-        <a href="https://www.figma.com/design/0ACeSnt6WDCBfrfjugrQcW/Stockwise?node-id=0-1&t=21M0U0E8wV67Me2f-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+        <a href="https://dribbble.com/shots/27331247-Stockwise-Warehouse-Stock-Opname-System" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
     </div>
-  `
+  `,
   },
   {
-    id: 1,
-    title: 'Bazarsip - Premium E-Commerce Web Application',
-    description: 'Designed and developed an end-to-end luxury e-commerce platform featuring a responsive storefront and a high-efficiency admin dashboard.',
-    image: 'assets/images/bazarsip-desktop-mockup-customer.png', // TODO: Ganti gambar ini
-    tags: ['UI/UX Design', 'Design System', 'Front-End', 'Web App'],
+    id: 2,
+    title: "Bazarsip - Premium E-Commerce Web Application",
+    description:
+      "Designed and developed an end-to-end luxury e-commerce platform featuring a responsive storefront and a high-efficiency admin dashboard.",
+    image: "assets/images/bazarsip-desktop-mockup-customer.png", // TODO: Ganti gambar ini
+    tags: ["UI/UX Design", "Design System", "Front-End", "Web App"],
     details: `
       <div class="modal__image-gallery">
         <img src="assets/images/bazarsip-desktop-mockup-customer.png" alt="Bazarsip Customer Storefront Mockup">
@@ -64,16 +102,17 @@ const projects = [
       <p>The project resulted in a frictionless user journey from product discovery to checkout. The overall experience was significantly optimized through clear visual hierarchies, actionable empty states, and intuitive micro-interactions, proving the effectiveness of bridging solid UX principles with clean front-end execution.</p>
       
       <div class="modal__links">
-          <a href="https://www.figma.com/design/MFHnks0RiEcyKCTVfzQG8L/Bazarsip?node-id=734-1514&t=kSyxESAMvfEvZVot-1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
+          <a href="https://dribbble.com/shots/27330013-Bazarsip-E-Commerce-Web-Application" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Case Study</a>
       </div>
-    `
+    `,
   },
   {
-    id: 2,
-    title: 'Self-Regulated Learning Dashboard',
-    description: 'A UI/UX project aimed at enhancing student motivation for distance learners.',
-    image: 'assets/images/Self-Regulated Learning Dashboard Device Mockup.png', // TODO: Replace this image
-    tags: ['UI/UX Design', 'Figma', 'User Research', 'Prototyping'],
+    id: 3,
+    title: "Self-Regulated Learning Dashboard",
+    description:
+      "A UI/UX project aimed at enhancing student motivation for distance learners.",
+    image: "assets/images/Self-Regulated Learning Dashboard Device Mockup.png", // TODO: Replace this image
+    tags: ["UI/UX Design", "Figma", "User Research", "Prototyping"],
     details: `
       <img src="assets/images/Self-Regulated Learning Dashboard Device Mockup.png" alt="SRL Dashboard High-Fidelity Mockup">
       <h3>The Challenge</h3>
@@ -94,14 +133,35 @@ const projects = [
       <div class="modal__links">
           <a href="https://tugasakhirdashboardlms.vercel.app/" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Live Demo</a>
       </div>
-    `
+    `,
   },
   {
-    id: 3,
-    title: 'PT. Jago Talenta Indonesia Internship Project',
-    description: 'Led the redesign of the main company website to improve user engagement.',
-    image: 'assets/images/project-jago-talenta-1.png', // Main card image
-    tags: ['UI/UX Design', 'Wireframing', 'Usability Testing', 'Web Design'],
+    id: 4,
+    title: "Bladerunner Web Marketing Project",
+    description:
+      "Created key pages for a marketing website to increase lead generation.",
+    image: "assets/images/Bladerunner Device Mockup.png", // TODO: Ganti gambar ini
+    tags: ["Web Design", "UI/UX", "Lead Generation"],
+    details: `
+      <img src="assets/images/Bladerunner Device Mockup.png" alt="Bladerunner Website Mockup">
+      <h3>The Goal</h3>
+      <p>To develop a modern marketing website for Bladerunner, focusing on optimizing the user journey to increase lead generation and reduce bounce rates.</p>
+      <h3>My Role & Contribution</h3>
+      <ul>
+        <li>Designed and developed key pages including the landing page, services overview, portfolio, and a functional contact form.</li>
+        <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
+        <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
+      </ul>
+     <a href="https://dribbble.com/shots/27331257-Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
+      `,
+  },
+  {
+    id: 5,
+    title: "PT. Jago Talenta Indonesia Internship Project",
+    description:
+      "Led the redesign of the main company website to improve user engagement.",
+    image: "assets/images/project-jago-talenta-1.png", // Main card image
+    tags: ["UI/UX Design", "Wireframing", "Usability Testing", "Web Design"],
     details: `
       <div class="modal__image-gallery">
         <img src="assets/images/project-jago-talenta-1.png" alt="Jago Talenta Design">
@@ -130,37 +190,15 @@ const projects = [
         <li>The new website application for <strong> CV. Harapan Baru </strong> was met with positive reception, achieving a <strong> 30% increase in user satisfaction scores </strong> based on post-launch surveys.</li>
       </ul>
       </div>
-      `
+      `,
   },
   {
-    id: 4,
-    title: 'Igracias University Portal Redesign',
-    description: 'A redesign of a university portal to improve navigation and information architecture.',
-    image: 'assets/images/project-igraciass.png', // TODO: Replace this image
-    tags: ['UI Design', 'Figma', 'Information Architecture'],
-    details: `
-      <img src="assets/images/project-igraciass.png" alt="Igracias Portal Redesign">
-      <h3>The Challenge</h3>
-      <p>The Igracias university portal was cluttered and difficult for students to navigate, leading to frequent support requests and frustration. The goal was to simplify the information architecture and create a more intuitive user interface.</p>
-      
-      <h3>My Approach & Role</h3>
-      <p>I focused on restructuring the user flow and visual hierarchy:</p>
-      <ul>
-        <li>Analyzed user feedback to identify the most common navigation problems.</li>
-        <li>Created a new sitemap and user flow diagrams to streamline access to essential information like grades, schedules, and announcements.</li>
-        <li>Designed a clean, modern UI in Figma with a consistent visual language.</li>
-      </ul>
-      
-      <h3>The Outcome</h3>
-      <p>The redesign led to a <strong>40% decrease in user-reported issues</strong> and a <strong>35% increase in average session duration</strong>, indicating that students found the new portal easier and more engaging to use.</p>
-    `
-  },
-  {
-    id: 5,
-    title: 'Multiku Application',
-    description: 'UI/UX design and copywriting for a mobile application, leading to improved task completion.',
-    image: 'assets/images/project-multiku-1.png', // Main card image
-    tags: ['Mobile UI/UX', 'Copywriting', 'App Design'],
+    id: 6,
+    title: "Multiku Application",
+    description:
+      "UI/UX design and copywriting for a mobile application, leading to improved task completion.",
+    image: "assets/images/project-multiku-1.png", // Main card image
+    tags: ["Mobile UI/UX", "Copywriting", "App Design"],
     details: `
       <div class="modal__image-gallery">
         <img src="assets/images/project-multiku-1.png" alt="Multiku App - Onboarding Screen">
@@ -180,33 +218,39 @@ const projects = [
       
       <h3>The Outcome</h3>
       <p>The redesign resulted in a <strong>30% improvement in user task completion rates</strong> and a <strong>25% increase in positive app store reviews</strong> after launch.</p>
-    `
-  },
-  {
-    id: 6,
-    title: 'Bladerunner Web Marketing Project',
-    description: 'Created key pages for a marketing website to increase lead generation.',
-    image: 'assets/images/Bladerunner Device Mockup.png', // TODO: Ganti gambar ini
-    tags: ['Web Design', 'UI/UX', 'Lead Generation'],
-    details: `
-      <img src="assets/images/Bladerunner Device Mockup.png" alt="Bladerunner Website Mockup">
-      <h3>The Goal</h3>
-      <p>To develop a modern marketing website for Bladerunner, focusing on optimizing the user journey to increase lead generation and reduce bounce rates.</p>
-      <h3>My Role & Contribution</h3>
-      <ul>
-        <li>Designed and developed key pages including the landing page, services overview, portfolio, and a functional contact form.</li>
-        <li>Applied modern UI/UX principles to ensure clear navigation and a compelling user experience.</li>
-        <li>Focused on creating a strong visual hierarchy to guide users towards call-to-action (CTA) elements.</li>
-      </ul>
-     <a href="https://www.behance.net/gallery/226543509/Bladerunner-Web-Marketing-Project" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View on Behance</a>
-      `
+    `,
   },
   {
     id: 7,
-    title: 'Data Visualization Project',
-    description: 'Built an interactive data visualization dashboard using Streamlit.',
-    image: 'assets/images/project-dataviz.png', // TODO: Ganti gambar ini
-    tags: ['Data Viz', 'Streamlit', 'Python', 'UI Design'],
+    title: "Igracias University Portal Redesign",
+    description:
+      "A redesign of a university portal to improve navigation and information architecture.",
+    image: "assets/images/project-igraciass.png", // TODO: Replace this image
+    tags: ["UI Design", "Figma", "Information Architecture"],
+    details: `
+      <img src="assets/images/project-igraciass.png" alt="Igracias Portal Redesign">
+      <h3>The Challenge</h3>
+      <p>The Igracias university portal was cluttered and difficult for students to navigate, leading to frequent support requests and frustration. The goal was to simplify the information architecture and create a more intuitive user interface.</p>
+      
+      <h3>My Approach & Role</h3>
+      <p>I focused on restructuring the user flow and visual hierarchy:</p>
+      <ul>
+        <li>Analyzed user feedback to identify the most common navigation problems.</li>
+        <li>Created a new sitemap and user flow diagrams to streamline access to essential information like grades, schedules, and announcements.</li>
+        <li>Designed a clean, modern UI in Figma with a consistent visual language.</li>
+      </ul>
+      
+      <h3>The Outcome</h3>
+      <p>The redesign led to a <strong>40% decrease in user-reported issues</strong> and a <strong>35% increase in average session duration</strong>, indicating that students found the new portal easier and more engaging to use.</p>
+    `,
+  },
+  {
+    id: 8,
+    title: "Data Visualization Project",
+    description:
+      "Built an interactive data visualization dashboard using Streamlit.",
+    image: "assets/images/project-dataviz.png", // TODO: Ganti gambar ini
+    tags: ["Data Viz", "Streamlit", "Python", "UI Design"],
     details: `
       <img src="assets/images/project-dataviz.png" alt="Data Visualization Dashboard">
       <h3>The Challenge</h3>
@@ -220,14 +264,15 @@ const projects = [
       <h3>The Impact</h3>
       <p>The dashboard empowered the team to analyze data in real-time, leading to faster and more accurate decision-making. The intuitive design received positive feedback for its ease of use.</p>
       <a href="https://app-visualisasi-data-kwq9wfcwrofrwtjechlxcu.streamlit.app/" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">View Live Demo</a>
-    `
+    `,
   },
   {
-    id: 8,
-    title: 'Logo Design for PT. Digital Multi Distribusi',
-    description: 'Created a professional and visually appealing logo for corporate branding.',
-    image: 'assets/images/project-logo-dmd.png', // TODO: Ganti gambar ini
-    tags: ['Branding', 'Logo Design', 'Graphic Design'],
+    id: 9,
+    title: "Logo Design for PT. Digital Multi Distribusi",
+    description:
+      "Created a professional and visually appealing logo for corporate branding.",
+    image: "assets/images/project-logo-dmd.png", // TODO: Ganti gambar ini
+    tags: ["Branding", "Logo Design", "Graphic Design"],
     details: `
       <img src="assets/images/project-logo-dmd.png" alt="Logo for PT. Digital Multi Distribusi">
       <h3>The Brief</h3>
@@ -240,6 +285,6 @@ const projects = [
       </ul>
       <h3>The Result</h3>
       <p>The final logo design was successfully adopted across all company branding materials and received a <strong>90% approval rating</strong> from internal stakeholders, enhancing the company's professional image.</p>
-    `
+    `,
   },
 ];
